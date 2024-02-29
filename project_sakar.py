@@ -5,7 +5,7 @@ scr = Tk()
 scr.title("Hospital DB")   # for title name 
 # scr.iconbitmap('C:\\Users\\Accer\\Desktop\\project\\Hospi.ico') # for putting icon should be .ico file
 scr.geometry('900x500')     #for hight and weight
-scr.resizable(False,TRUE)
+scr.resizable(TRUE,TRUE)
 # pic=PhotoImage(file="C:\\Users\\Accer\\Desktop\\project\\Ho.png")
 # Label(scr,image=pic).place(x=50,y=0)
 scr.config(bg='gray')
